@@ -26,9 +26,11 @@ provide this tracking pixel for your customers to place on their websites. By su
 number of times the pixel was loaded, you calculate the number of visitors to each site.
 <img src=”http://hashtag­analytics.com/12345/pixel.gif” width=”1” height=”1”/>
 As it stands, this pixel has a problem because it will be cached by the browser.
+
 a. Why is caching a problem for the analytics company?
 
-- caching will only store information in the catch on the user side.
+- caching will only store information in the catch on the user side. Each file stored will make a call to the server,
+hence if there are too many calls there can be server lag.
 
 b. How could you prevent browser caching? (use any technique(s) you want)
 
@@ -39,11 +41,18 @@ c. What will happen if the customer’s website is served over HTTPS? How could 
 modify the tracking pixel to fix that?
 
 
+
 d. List some information the tracking company could collect (ex: IP address)
 
+- time possibly incase the company values time of day websites are visited.
 
 e. List some additional information (if any) that could be collected if a <script> tag is used
-instead of an <img> tag. -->
+instead of an <img> tag.
+
+- not quite clear on the question but my guess is, with a script tag, this will allow the use of js as well as object oriented programing.
+We can apply logic as well as other methods to pull more data and even do something with the information.
+
+ -->
 
 
 </body>
