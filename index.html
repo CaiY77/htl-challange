@@ -20,8 +20,52 @@
   <div id="q1c"></div>
 </div>
 <div id="q1b"></div>
+<img src=”http://hashtag­analytics.com/12345/pixel.gif” width=”1” height=”1”/>
+<!-- 2. You have started an analytics company with the domain “hashtag­analytics.com”. You
+provide this tracking pixel for your customers to place on their websites. By summing the
+number of times the pixel was loaded, you calculate the number of visitors to each site.
+<img src=”http://hashtag­analytics.com/12345/pixel.gif” width=”1” height=”1”/>
+As it stands, this pixel has a problem because it will be cached by the browser.
+a. Why is caching a problem for the analytics company?
+
+- caching will only store information in the catch on the user side.
+
+b. How could you prevent browser caching? (use any technique(s) you want)
+
+- Most if not all browers wether it's internet explorer or firefox allow users to alter settings so that when they reach the given page,
+you can always fetch for newest version of the page
+
+c. What will happen if the customer’s website is served over HTTPS? How could you
+modify the tracking pixel to fix that?
+
+
+d. List some information the tracking company could collect (ex: IP address)
+
+
+e. List some additional information (if any) that could be collected if a <script> tag is used
+instead of an <img> tag. -->
 
 
 </body>
+<script>
+// 3. Harder!
+// The following image tag appears somewhere on some webpage. The rest of the page is valid
+// HTML, but otherwise unknown.
+// <img id=”myimage” src=”http://hashtag­analytics.com/myimage.jpg” width=”300” height=”250”/>
+// Write CODE in plain javascript to do the following (jQuery is fine too, if you prefer):
+// Every 2 seconds:
+// ­ Check whether the image is viewable**
+// ­ If yes, write “visible” to the console (that is, window.console)
+// ­ If no, do nothing
+myImage = document.getElementById('myimage').
+visible = myImage.checkValidity();
+
+setInterval(()=>{
+  (visible)
+  ? window.console("visible")
+  : null
+},2000)
+
+</script>
 
 </html>
