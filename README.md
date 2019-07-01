@@ -3,7 +3,7 @@
 2. What is the difference between HTTP GET and POST?
 ### GET pulls data from database while POST sends data to database
 3. What is the difference between the HTTP 2xx status codes and 4xx status codes?
-### 2xx codes stand for request that is successfully received, accepted, understood
+### 200s codes stand for request that is successfully received, accepted, understood where as 400s codes usually stands for errors and blockers
 4. What is ajax (conceptually, what does it do)? Describe a situation where it is useful.
 ### Ajax uses javascript and XML. Very similar to what react.js does. Allows browsers to access parts of the server side. This is good in cases you wish to dynamically render stuff from the database or overall faster front-end
 5. What is responsive design?
